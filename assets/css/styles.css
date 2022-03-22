@@ -1,0 +1,488 @@
+/* header */
+
+#main-header {
+  background-image: url("../../assets/img/circles.png?h=22a03e1b055fc090fabc176ed88bc7e1");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: 60vw 39vh;
+  background-position: 36vw 1vh;
+}
+
+@media (min-width: 576px) {
+  #main-header {
+    background-image: url("../../assets/img/circles.png?h=22a03e1b055fc090fabc176ed88bc7e1");
+    height: 58vh;
+    background-repeat: no-repeat;
+    background-size: 61vw 47vh;
+    background-position: 36vw 6vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-header {
+    background-image: url("../../assets/img/circles.png?h=22a03e1b055fc090fabc176ed88bc7e1");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 53rem 45rem;
+    background-position: 38rem -7rem;
+  }
+}
+
+header #top-header .navbar .nav {
+  font-size: 26px;
+  font-family: Caveat, cursive;
+  font-weight: bold;
+}
+
+header #top-header .navbar .nav a {
+  color: #b08ead;
+  transition: color .3s ease-in-out;
+}
+
+header #top-header .navbar .nav a:hover {
+  color: #000000;
+}
+
+header .navbar-light .navbar-brand {
+  width: 105px;
+  height: 50px;
+}
+
+header #navcollapse {
+  position: absolute;
+  top: 4rem;
+  left: 0rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 17px;
+  border-radius: 15px;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  header #navcollapse {
+    position: initial;
+    background-color: initial;
+    box-shadow: initial;
+    padding: initial;
+    border-radius: initial;
+    border: initial;
+    z-index: initial;
+  }
+}
+
+#bottom-header {
+  position: relative;
+}
+
+#bottom-header h1 {
+  position: absolute;
+  color: #CEB3CB;
+  font-family: 'Great Vibes', cursive;
+  font-size: 31px;
+  top: 4rem;
+  left: 1rem;
+  width: 73vw;
+}
+
+@media (min-width: 576px) {
+  #bottom-header h1 {
+    position: absolute;
+    color: #CEB3CB;
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    top: 6rem;
+    left: 2rem;
+    width: 76vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #bottom-header h1 {
+    position: absolute;
+    color: #CEB3CB;
+    font-family: 'Great Vibes', cursive;
+    font-size: 122px;
+    top: 8rem;
+    left: 9rem;
+    width: 1230px;
+  }
+}
+
+/* end of header */
+
+#main-index, section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  #main-index {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #main-index #what-we-do {
+    margin-top: 10rem;
+  }
+}
+
+/* who we are */
+
+#who-we-are {
+  text-align: center;
+}
+
+#who-we-are p {
+  text-align: center;
+}
+
+#who-we-are .h {
+  margin-bottom: 3rem;
+  font-family: Courgette, cursive;
+  color: #ceb3cb;
+}
+
+#who-we-are div p {
+  font-family: verdana;
+  font-style: normal;
+  font-weight: 300;
+  width: 90vw;
+  margin: 0px auto;
+  font-size: 13px;
+}
+
+@media (min-width: 576px) {
+  #who-we-are div p {
+    font-family: verdana;
+    font-style: normal;
+    font-weight: 300;
+    width: 90vw;
+    margin: 0px auto;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #who-we-are div p {
+    font-family: verdana;
+    font-style: normal;
+    font-weight: 300;
+    width: 950px;
+    margin: 0px auto;
+    font-size: 16px;
+  }
+}
+
+/* end who we are */
+
+/* what we do */
+
+#what-we-do .h {
+  margin-bottom: 3rem;
+  color: #ceb3cb;
+}
+
+#what-we-do .row .do-image, .do-text {
+  width: 196px;
+  height: 196px;
+}
+
+@media (min-width: 576px) {
+  #what-we-do .row .do-image, .do-text {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  #what-we-do .row .do-image, .do-text {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px;
+  }
+}
+
+#what-we-do .do-text p {
+  width: 7rem;
+  font-size: 13px;
+}
+
+@media (min-width: 576px) {
+  #what-we-do .do-text p {
+    width: 11rem;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #what-we-do .do-text p {
+    width: 13rem;
+    font-size: 19px;
+  }
+}
+
+#what-we-do .do-col {
+  position: relative;
+  padding: 0px 0px;
+}
+
+#what-we-do .do-text {
+  position: absolute;
+  font-family: Kalam, cursive;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  top: 5px;
+  padding-left: 34px;
+  padding-right: 10px;
+  right: 0rem;
+  z-index: -1;
+}
+
+@media (min-width: 576px) {
+  #what-we-do .do-text {
+    position: absolute;
+    font-family: Kalam, cursive;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    top: 5px;
+    padding-left: 49px;
+    padding-right: 2px;
+    right: 5rem;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 768px) {
+  #what-we-do .do-text {
+    position: absolute;
+    text-align: center;
+    font-family: Kalam, cursive;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    top: 1px;
+    right: 0rem;
+    padding-left: 49px;
+    padding-right: 2px;
+    z-index: -1;
+  }
+}
+
+#what-we-do {
+  text-align: center;
+}
+
+.do-image img {
+  width: inherit;
+  height: inherit;
+}
+
+#what-we-do h2 {
+  font-family: 'Courgette';
+}
+
+.do-col {
+  position: relative;
+}
+
+#what-we-do .row .col {
+  margin: 15px 0px;
+}
+
+/* what we do */
+
+/* footer */
+
+body footer {
+  background-color: #B08EAD;
+  padding-top: 20px;
+}
+
+footer #company {
+  text-align: center;
+  color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+footer #company p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 29px;
+}
+
+footer #company a {
+  text-decoration: none;
+}
+
+footer #company a img {
+  width: 128px;
+  height: 128px;
+}
+
+footer .h {
+  color: rgb(255,255,255);
+  font-family: Courgette, cursive;
+  text-align: center;
+}
+
+footer #footer-links .links {
+  color: rgb(244,244,244);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  footer #footer-links .links {
+    color: rgb(244,244,244);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 0px 0px 0px;
+  }
+}
+
+footer #footer-links .links a {
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-size: 16px;
+  transition: color .3s ease-in-out;
+  margin: 0px 5px;
+}
+
+@media (min-width: 576px) {
+  footer #footer-links .links a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 22px;
+    transition: color .3s ease-in-out;
+    margin: 0px 5px;
+  }
+}
+
+footer #footer-links .links a:hover {
+  color: rgb(0,0,0);
+}
+
+footer #contacts .contacts-container {
+  display: flex;
+  position: relative;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  footer #contacts .contacts-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    color: white;
+  }
+}
+
+footer #contacts .contacts-container div {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 321px;
+}
+
+footer #contacts div i {
+  font-size: 29px;
+}
+
+footer #contacts div p {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  line-height: 26px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  footer #contacts div p {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    line-height: 26px;
+    margin-top: 10px;
+    justify-content: start;
+  }
+}
+
+footer #contacts div p span {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+footer #contacts #name-phone {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer #contacts #name-phone input {
+  margin: 2px;
+}
+
+footer #contacts #divider {
+  display: none;
+  position: absolute;
+  width: 2px;
+  height: 215px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: 14rem;
+  top: 1rem;
+}
+
+@media (min-width: 768px) {
+  footer #contacts #divider {
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 215px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    left: 14rem;
+    top: 1rem;
+  }
+}
+
+footer #contacts button {
+  border: 1px solid white;
+  color: white;
+  transition: color .3s ease-in-out;
+}
+
+footer #contacts button:hover {
+  background-color: #B08EAD;
+  color: black;
+}
+
+footer #footer-bottom p {
+  text-align: center;
+  color: rgb(255,255,255);
+  font-family: Caveat, cursive;
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+
+/* end of footer */
+
